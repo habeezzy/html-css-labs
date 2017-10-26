@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body {
+  background-color:
+  flex
+}
+.text {
+  float: left;
+
+}
+
+.circles {
+  position: relative;
+}
+
+#circle1 {
+  position: absolute;
+  left: 20px
+}
+
+#circle2 {
+  position: absolute;
+}
+
+#circle3 {
+  position: absolute;
+}
+
+.top {
+  display: flex;
+  margin-bottom: 100px
+}
+
+.chirpus {
+  margin-right: auto;
+  font-family: open sans;
+  font-weight: bold;
+}
+
+h2 {
+  margin-left: 15px;
+}
+
+.nav {
+  font-family: open sans;
+  margin-left: 10px;
+}
+
+
+
+a {
+  margin: 5px 10px;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.75);
+
+
+}
+
+.hire {
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+  padding: 10px 25px;
+  font-stretch: condensed;
+
+}
+
+
+.middle {
+  display: flex;
+  margin: auto;
+}
+
+.text {
+  font-family: open sans;
+
+}
+
+p {
+  color: rgba(0, 0, 0, 0.75);
+  border-left: solid grey 3px;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+.circles {
+ position: relative;
+}
+
+#circle1 {
+  position: absolute;
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  background-color: rgba(242, 79, 150, 0.5);
+  top: 25px;
+  z-index: 2;
+}
+
+#circle2 {
+  position: absolute;
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  background-color: rgba(244, 179, 66, 0.5);
+  left: 200px;
+  top: 150px;
+  z-index: 1;
+
+}
+
+#circle3 {
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-color: rgba(203, 111, 232, 0.5);
+  left: 250px;
+  top: 50px;
+  z-index: 3;
+}
+
+button {
+  position: absolute;
+  font-size: 14px;
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+  padding: 10px 25px;
+  bottom: 3%;
+  right: 50%;
+}

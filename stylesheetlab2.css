@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
+body {
+background-color: light grey;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  margin: 3px;
+}
+
+header {
+  font-family: 'open sans';
+  color: black;
+  padding: 4px;
+}
+
+a {
+  text-decoration: none;
+  color:  grey;
+  padding: 4px;
+  font-size: 14px;
+}
+
+h2 {
+  font-family: 'open sans';
+}
+
+p {
+  font-family: 'open sans';
+  font-size: 14px;
+  color: grey;
+  letter-spacing: -.25px;
+  text-align: left;
+  border-left: 2px solid  grey;
+  padding-left: 10px;
+}
+
+.middle {
+  padding: 5px;
+}
+
+.circles {
+  display: none;
+}
+
+.text {
+  border-spacing: 5px;
+  margin-bottom: 30px;
+}
+
+
+
+button {
+  font-family: 'Open sans';
+  font-size: 16px;
+}
+
+
+.button {
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+  text-align: center;
+  padding: 10px 25px;
+  margin-top: 10px;
+}
+
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  font-family: "Open Sans";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style: none;
+}
+
+
+@media only screen and (min-width:768px) {
+  .top, header, nav, a, button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+  a {
+    margin: 10px;
+    padding: 4px;
+  }
+  button {
+    padding: 4px;
+
+  }
+
+  .nav {
+
+  }
+
+  .middle {
+   position: relative;
+  }
+
+  p {
+   font-size: 16px;
+
+  }
+
+  .circles {
+   position: relative;
+  }
+
+  #circle1 {
+  position: absolute;
+  width: 275px;
+  height: 275px;
+  border-radius: 50%;
+  background-color: rgba(242, 79, 150, 0.5);
+  top: 25px;
+  z-index: 2;
+}
+
+#circle2 {
+  position: absolute;
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  background-color: rgba(244, 179, 66, 0.5);
+  left: 200px;
+  top: 150px;
+  z-index: 1;
+
+}
+
+#circle3 {
+  position: absolute;
+  width: 125px;
+  height: 125px;
+  border-radius: 50%;
+  background-color: rgba(203, 111, 232, 0.5);
+  left: 250px;
+  top: 50px;
+  z-index: 3;
+}
